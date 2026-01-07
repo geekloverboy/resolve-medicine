@@ -1,0 +1,38 @@
+# Vercel ignore file
+# Exclude files that shouldn't be deployed
+
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+
+# Environment files (use Vercel dashboard for env vars)
+.env
+.env.local
+.env*.local
+
+# Development files
+.vite/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite-specific (not needed for Next.js)
+vite.config.ts
+index.html
+
+# Supabase local files
+supabase/.branches/
+supabase/.temp/
+
